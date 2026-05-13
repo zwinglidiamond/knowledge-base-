@@ -1,0 +1,139 @@
+# 📋 True Nutra CS Knowledge Base
+
+A live, multi-page internal knowledge base for the True Nutra Customer Support team — connected to Kustomer MCP for real-time ticket data.
+
+---
+
+## 🌐 Overview
+
+This knowledge base centralizes all escalated concerns, common questions, live tickets, follow-ups, product information, and escalation procedures for the True Nutra CS team. Data is sourced from three Slack channels and live-synced from Kustomer.
+
+---
+
+## 📁 Pages
+
+| Page | Description |
+|------|-------------|
+| 🏠 **Home** | Search bar + quick navigation icons |
+| 📋 **Help Topics** | 8 categories linking directly to filtered tickets |
+| ❓ **Common Questions** | 10 expandable FAQ articles with Kustomer links |
+| 🎫 **Live Tickets** | Real-time open tickets pulled from Kustomer + manual add |
+| 🔔 **Follow-Up** | Queue for tracking customer follow-up calls/emails/refunds |
+| ⚠️ **Pending Concerns** | 17 open escalations with who raised it and who must act |
+| 💊 **Products** | All 10 True Nutra products with direct links and CS notes |
+| 📞 **Escalation Guide** | Team contacts + policy quick reference |
+
+---
+
+## 🔗 Data Sources
+
+| Source | Type |
+|--------|------|
+| `#cs-escalated-concerns` | Slack — escalated tickets |
+| `#cs-question-hub` | Slack — agent questions |
+| `#cs-ai-issue-reporting` | Slack — Ashley/Iris AI errors |
+| Kustomer MCP | Live — real-time open conversations |
+
+---
+
+## 💊 Products Covered
+
+| Product | Link |
+|---------|------|
+| 5-in-1 Vitamin B Complex | https://truenutra.com/products/vitaminb-default |
+| Vitamin D3 & K2 Plus | https://truenutra.com/products/fb-en-vdk001 |
+| 7-in-1 Blood Sugar Complex | https://truenutraco.com/products/fb-en-bsc001 |
+| 8-in-1 Magnesium Complex | https://mytruenutra.com/products/fb-en-us-mc001 |
+| 6-in-1 Lymphatic Complex | https://mytruenutra.com/products/fb-en-lc001 |
+| CLEARSKIN™ | https://gotruenutra.com/products/fb-en-cs001 |
+| Oil of Oregano | https://hellotruenutra.com/products/fb-en-or001 |
+| Turmeric Curcumin 95 | https://hellotruenutra.com/products/fb-en-tc001 |
+| Performance Max™ | https://truenutrastore.com/products/fb-en-us-pm001 |
+| Shilajit Honey Sticks | https://truenutradirect.com/products/fb-en-shi001 |
+
+---
+
+## 👥 Escalation Guide
+
+| Person | Handles |
+|--------|---------|
+| **Marge Laureola** | All external refunds (PayPal, Venmo, wire, check) |
+| **Ryan Bailis** | Product issues, legal, account disputes, manager escalations |
+| **Enrico Dela Rosa** | Ashley / Iris AI errors, Coach Tom tickets |
+| **Jessie** | Product quality info, ingredient reports, lab results |
+| **Mo Domah** | Ad verification, copycat sites, marketing questions |
+| **Sean Bailis** | Kustomer widget bugs, technical fixes |
+| **Angel Madera** | BBB inquiries, refund verifications |
+
+---
+
+## ⚡ Key Policy Rules
+
+| Rule | Detail |
+|------|--------|
+| 🔁 Go Green Refund | Exactly 50% — customer keeps product, tree planted |
+| ⏸ Subscription Pause | Up to **6 months** max (not 3 — Ashley error) |
+| 💸 Retention Discount | **20% lifetime** max (not 35% — Ashley error) |
+| 🚨 Adverse Reactions | Cancel sub + cancel/refund order — no retention |
+| 📦 Partial Replacements | Never use "Resend" — escalate to CS |
+| ⚖️ Legal Letters | Never respond directly — escalate to Ryan immediately |
+| 🤖 AI Errors | Report all to #cs-ai-issue-reporting + tag Enrico |
+| 🌱 Discontinued Products | TN011 & TN013 → replace with Magnesium + Vitamin B |
+| 📞 Callback Policy | We do NOT offer callbacks |
+| 🛡️ Suspicious Emails | Shopify emails only from @shopify.com |
+
+---
+
+## 🤖 Known Ashley / Iris AI Errors
+
+| Product | Error | Correct Info |
+|---------|-------|-------------|
+| 7-in-1 Blood Sugar Complex | Says should NOT be liquid | **It IS liquid** |
+| 5-in-1 Vitamin B Complex | Offers capsule version | **No capsules exist** |
+| Vitamin D3 & K2 Plus | Says comes in bottles | **Comes in pouches** |
+| Turmeric Curcumin 95 | Says 90 capsules | **Only 30 capsules** |
+| Vitamin D3 & K2 Plus | Offers "Black" & "GLP" versions | **Only 1 version exists** |
+| Subscription pause | Says 3-month limit | **Limit is 6 months** |
+| Refund confirmation | Confirms refund was processed | **Verify — may not have acted** |
+| Go Green | Gives full refund | **Should be exactly 50%** |
+| Retention discount | Offers 35% | **Maximum is 20%** |
+
+---
+
+## 🚀 How to Deploy
+
+### Option 1 — Netlify Drop (fastest, ~30 seconds)
+1. Rename `cs_knowledge_base.html` → `index.html`
+2. Go to [netlify.com/drop](https://netlify.com/drop)
+3. Drag and drop the file
+4. Get an instant live URL like `https://random-name.netlify.app`
+
+### Option 2 — GitHub Pages (free, permanent URL)
+1. Create a new GitHub repository
+2. Upload `cs_knowledge_base.html` and rename it `index.html`
+3. Go to **Settings → Pages → Source: main branch**
+4. Your URL: `https://yourusername.github.io/repo-name`
+
+### Option 3 — Vercel
+1. Go to [vercel.com](https://vercel.com)
+2. Import from GitHub or drop the file
+3. Get a live URL instantly
+
+---
+
+## 🔄 Live Sync
+
+The knowledge base connects to **Kustomer MCP** to pull real-time open conversations. The Live Tickets page auto-displays current open tickets with direct Kustomer links. Use the **↻ Refresh** button on the tickets page to manually re-sync, or click **Live Sync** in the nav bar.
+
+---
+
+## 📌 Files
+
+| File | Description |
+|------|-------------|
+| `cs_knowledge_base.html` | Full multi-page website (open in any browser) |
+| `README.md` | This documentation file |
+
+---
+
+*Built with Claude · Powered by Kustomer MCP · Sourced from Slack channels*
